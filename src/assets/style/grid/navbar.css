@@ -1,0 +1,7 @@
+.navbar__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: #fff;
+    font-weight: bold;
+    padding-bottom: 10px;
+}

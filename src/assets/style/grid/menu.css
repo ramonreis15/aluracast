@@ -1,0 +1,16 @@
+.menu-lateral {
+    display: grid;
+    grid-template-rows: repeat(3, auto) 1fr;
+    row-gap: 2rem;
+}
+
+.menu-lateral__logo {
+    justify-self: center;
+}
+
+.menu-lateral__link--busca,
+.menu-lateral__link--biblioteca,
+.menu-lateral__link--home.ativo {
+    padding: 8px 0px;
+    margin: 0px 0px 1px;
+}
